@@ -1,0 +1,191 @@
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+}
+.modal-content {
+	width: 80%;
+	max-width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1em 2em 2em;
+	background: white;
+	@media all and (max-width: 800px) {
+		width: 95%;
+	}
+	max-height: 90vh;
+//	overflow: scroll;
+}
+.modal-close {
+	color: #de4383;
+	background: #fff;
+	font-weight: 700;
+	position: fixed;
+	text-align: center;
+	top: 8px;
+	right: 8px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: solid 1px;
+	text-decoration: none;
+	z-index: 10;
+	font-family: 'Rock Salt';
+  &:hover {
+    color: #FFF;
+		background-color: #de4383;
+  }
+}
+.modal-title_container {
+	background: #fff;
+	width: 100%;
+}
+.modal-title {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: normal;
+	background: linear-gradient(50deg,#7cb342,#00a8b5,#774898,#de4383,#f68401,#fbc02d);
+  background-size: 110%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+	text-align: center;
+  transition: .5s;
+	font-family: 'Rock Salt', cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+	cursor: default;
+	@media all and (max-width: 800px) {
+		font-size: 1.25em;
+	}
+}
+
+.modal-lead {
+	margin: .5em auto -.5em;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: linear-gradient(50deg,#7cb342,#00a8b5,#774898,#de4383,#f68401,#fbc02d);
+	background-size: 110%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none;
+	text-align: center;
+	transition: .5s;
+	font-family: 'Rock Salt', cursive;
+	font-size: 1em;
+	font-weight: 700;
+	cursor: default;
+}
+.modal-description_container {
+	max-height: 75vh;
+	overflow: scroll;
+}
+.modal-description {
+	font-family: 'Patrick Hand SC';
+	text-transform: none;
+	font-size: 1.25em;
+	letter-spacing: .5px;
+	strong {
+		letter-spacing: 1px;
+	}
+	ul {
+		margin-bottom: 2em;
+		list-style: none;
+	}
+	li {
+		text-indent: -1.5em;
+		padding-left: 1.5em;
+	}
+	li::before {
+		content: "\2B22";
+	}
+	li:nth-of-type(6n+1) {
+		&::before {
+			color: #7cb342;
+		}
+	}
+	li:nth-of-type(6n+2) {
+		&::before {
+			color: #00a8b5;
+		}
+	}
+	li:nth-of-type(6n+3) {
+		&::before {
+			color: #774898;
+		}
+	}
+	li:nth-of-type(6n+4) {
+		&::before {
+			color: #de4383;
+		}
+	}
+	li:nth-of-type(6n+5) {
+		&::before {
+			color: #f68401;
+		}
+	}
+	li:nth-of-type(6n+6) {
+		&::before {
+			color: #fbc02d;
+		}
+	}
+
+}
+.modal-image {
+  width: auto;
+  max-width: 80%;
+	display: block;
+	text-align: center;
+	margin: 0 auto 1em;
+}
+.modal-button {
+	display: block;
+	width: 20%;
+	min-width: 200px;
+	margin: 1em auto 0;
+  color: #FFF;
+  background-color: #de4383;
+  border: solid 1px #FFF;
+  border-radius: 1em;
+	padding: .5em 1em;
+	font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+	font-family: 'Rock Salt';
+  margin-bottom: .5em;
+  &:hover {
+  	color: #de4383;
+    background: #FFF;
+    border: solid 1px #de4383;
+    border-radius: 1em;
+  }
+}
+
+
+.modal-window {
+  & > div {
+    border-radius: 1rem;
+  }
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}

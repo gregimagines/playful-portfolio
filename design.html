@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34383437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34383437-1');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Design work from Gregory Gillis and GregImagines">
+  <title>Design + GregImagines</title>
+  <link rel="stylesheet" href="styles/hex.css" media />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  <script async>
+      $(function() {
+        var content = [];
+        $.getJSON('content.json', function(data) {
+          $.each(data.design, function(i, f) {
+            var li = "<li class='hex'>" + "<div class='hexIn'>" + "<a class='hexLink' href='#" + f.link + "'>" +
+            (typeof f.thumb !== 'undefined' ? "<div class='img' style='background-image:url(/"  + f.thumb + ");'></div>" : "<div class='img blue' ></div>") + "<h1 id='title'>" + f.title + "</h1>" + "</a>" + "</div>" + "</li>"
+            $(li).appendTo("#hexGrid");
+          });
+        });
+
+        var content = [];
+        $.getJSON('content.json', function(data) {
+          $.each(data.design, function(i, f) {
+            var li = "<div id=" + f.link + " class='modal-window'>" + "<div class='modal-content'>" + "<a href='#' title='Close' class='modal-close'>X</a>" +"<div class='modal-title_container'>" + "<div class='modal-title'>" + f.title + "</div></div>" + "<div class='modal-description_container'>" + "<img class='modal-image' src=/" + f.image + ">" + "<div class='modal-description'>" + f.description + "</div>" +
+            (typeof f.site !== 'undefined' ? "<a href=" + f.site + " class='modal-button' target='_blank'>Visit Site</a>" : "")
+            +
+            "</div></div></div>"
+            $(li).appendTo("#hexModals");
+          });
+        });
+    });
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TPLQC4M');</script>
+  <!-- End Google Tag Manager -->
+</head>
+<body>
+  <div class="page-wrapper">
+
+  <header class="nav">
+      <a href="index" class="nav-header">
+        Greg Imagines
+      </a>
+      <div class="nav-links">
+        <a href="about" class="nav_link">
+          <div class="badge yellow"></div>
+          <h2 class="ribbon">About</h2>
+        </a>
+        <a href="design" >
+          <div class="badge blue"></div>
+          <h2 class="ribbon">Design</h2>
+        </a>
+        <a href="games" >
+          <div class="badge pink"></div>
+          <h2 class="ribbon">Games</h2>
+        </a>
+        <a href="illustrations" >
+          <div class="badge purple"></div>
+          <h2 class="ribbon">Illustrations</h2>
+        </a>
+        <a href="web" >
+          <div class="badge orange"></div>
+          <h2 class="ribbon">Web Work</h2></a>
+        <a href="ministry" >
+          <div class="badge green"></div>
+          <h2 class="ribbon">Youth Ministry</h2>
+        </a>
+      </div>
+  </header>
+
+
+    <div class="main-content">
+      <h1 class="title --margin-bottom">
+        Design
+      </h1>
+      <ul id="hexGrid">
+        <!-- Content populates here -->
+      </ul>
+      <div id="hexModals">
+        <!-- Content Modals Populate Here -->
+      </div>
+    </div>
+
+<div class="footer footer--theme--main">
+  <div class="footer__copyright">
+    Copyright &copy; 2021 GregImagines. All rights reserved.
+  </div>
+
+</div><!-- END FOOTER -->
+
+</body>
+</html>

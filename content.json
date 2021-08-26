@@ -1,0 +1,234 @@
+{
+   "web": [
+     {
+         "title": "EWTN - Holy See of Peter",
+         "description": "Designed, developed, tested, implemented, and maintained. Used Ruby on Rails, HTML, SCSS, BEM, and javascript to manage front-end and content management with existing aesthetic of EWTN.com. ",
+         "image": "images/web/ewtn_holysee.png",
+         "thumb": "images/web/ewtn_holysee_thumb.png",
+         "link": "holysee",
+         "site": "http://www.ewtn.com/catholicism/holysee"
+     },
+     {
+         "title": "EWTN - Media Missionaries",
+         "description": "Designed, developed, tested, implemented, and maintained. Used Ruby on Rails, HTML, SCSS, BEM, and javascript to manage front-end and content management.",
+         "image": "images/web/ewtn_missionaries.png",
+         "thumb": "images/web/ewtn_missionaries_thumb.png",
+         "link": "missionaries",
+         "site": "http://www.ewtnmissionaries.com/"
+     },
+     {
+         "title": "A.T. Merhaut, Inc - E-commerce",
+         "description": "Designed, developed, tested, implemented, and maintained. Created images and icons for a custom theme. Based on XML and Odoo qweb. This is no longer managed by me.",
+         "image": "images/web/site-atmerhaut.png",
+         "thumb": "images/web/atmerhaut_thumb.png",
+         "link": "atmerhaut",
+         "site": "http://www.merhaut.com"
+     },
+     {
+         "title": "A.T. Merhaut, Inc. - Informational",
+         "description": "Designed, developed, tested, implemented, and maintained. Created using Angular 6, MDBootstrap 4, Font-Awesome, and custom CSS. This is no longer managed by me.",
+         "image": "images/web/site-merhaut-church.png",
+         "thumb": "images/web/merhautchurch_thumb.png",
+         "link": "merhautchurch",
+         "site": "http://www.merhaut.church"
+     },
+     {
+         "title": "Greg Imagines - Old Version",
+         "description": "Designed, developed, and maintained. Custom code from ground up. Built using HTML, CSS, and JavaScript using Angular5.",
+         "image": "images/web/site-gregimagines.png",
+         "thumb": "images/web/gregimagines_thumb.png",
+         "link": "gregimagines",
+         "site": "http://www.gregimagines.com/previous"
+     },
+     {
+         "title": "Painting Acorn",
+         "description": "Designed, developed, and maintained. Custom code from ground up. Built using Angular 6, MDBootstrap 4, and CSS. Custom icons and images.",
+         "image": "images/web/site-paintingacorn-2.png",
+         "thumb": "images/web/paintingacorn_thumb.png",
+         "link": "paintingacorn",
+         "site": "http://www.paintingacorn.com"
+     },
+     {
+         "title": "Pine-Richland Field Hockey",
+         "description": "Custom theme designed for Wordpress using PHP and CSS to meet customer specifications. This is no longer managed by me.",
+         "thumb": "images/web/site-prfh.jpg",
+         "image": "images/web/site-prfh.jpg",
+         "link": "prfh"
+     },
+     {
+         "title": "Women's Club of Sewickley",
+         "description": "Custom theme designed for Wordpress using PHP and CSS based on existing site. This is no longer managed by me.",
+         "image": "images/web/site-wcsewickley.jpg",
+         "thumb": "images/web/site-wcsewickley.jpg",
+         "link": "wcsewickley"
+     }
+   ],
+   "design": [
+     {
+         "title": "2021 Longest Drive Fundraiser Stamp",
+         "description": "",
+         "image": "images/design/2021LongestDriveDisc.jpg",
+         "thumb": "images/design/2021LongestDriveDisc_thumb.png",
+         "link": "2021longestdrivedisc"
+     },
+     {
+         "title": "2021 Longest Drive Fundraiser Shirt",
+         "description": "",
+         "image": "images/design/2021LongestDriveShirt.png",
+         "thumb": "images/design/2021LongestDriveShirt_thumb.png",
+         "link": "2021longestdriveshirt"
+     },
+     {
+         "title": "2021 Egg Bowl Tournament/Fundraiser Logo",
+         "description": "",
+         "image": "images/design/2021EggBowl.jpg",
+         "thumb": "images/design/2021EggBowl_thumb.jpg",
+         "link": "2021eggbowl"
+     },
+     {
+         "title": "2020 Rainbow City Wicked Woodpecker Tournament",
+         "description": "",
+         "image": "images/design/2020WickedWoodpecker.jpg",
+         "thumb": "images/design/2020WickedWoodpecker_thumb.png",
+         "link": "2020wickedwoodpecker"
+     },
+     {
+         "title": "2020 River Region Open Logo",
+         "description": "",
+         "image": "images/design/RiverRegionOpen_2020.png",
+         "thumb": "images/design/RiverRegionOpen_2020.png",
+         "link": "2020riverregion"
+     },
+     {
+         "title": "2019 DGB Christmas Classic",
+         "description": "",
+         "image": "images/design/2019ChristmasClassic.jpg",
+         "thumb": "images/design/2019ChristmasClassic_thumb.jpg",
+         "link": "2019christmasclassic"
+     },
+     {
+         "title": "Ondras Wedding Invitation",
+         "description": "",
+         "image": "images/design/beinvite.jpg",
+         "thumb": "images/design/beinvite_thumb.jpg",
+         "link": "beinvite"
+     }
+   ],
+   "games": [
+     {
+         "title": "The One About: The Sequel",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. The One About 2 | The Sequel is here! See if you can identify these movies from their vague plot descriptions.",
+         "image": "images/games/theoneabout2.png",
+         "thumb": "images/games/theoneabout2.png",
+         "link": "theoneabout2",
+         "site": "https://projectymgames.com/downloads/the-one-about-2/"
+     },
+     {
+         "title": "Sacaredy Cat",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. Each round you're given a phobia. See if you can guess the correct fear.",
+         "image": "images/games/scaredycat.png",
+         "thumb": "images/games/scaredycat.png",
+         "link": "scaredycat",
+         "site": "https://projectymgames.com/downloads/scaredy-cat/"
+     },
+     {
+         "title": "The One About",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. See if you can identify these movies from their vague plot descriptions.",
+         "image": "images/games/theoneabout.png",
+         "thumb": "images/games/theoneabout.png",
+         "link": "theoneabout",
+         "site": "https://projectymgames.com/downloads/the-one-about/"
+     }
+   ],
+   "ministry": [
+     {
+         "title": "The One About: The Sequel",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. The One About 2 | The Sequel is here! See if you can identify these movies from their vague plot descriptions.",
+         "image": "images/ministry/theoneabout2.png",
+         "thumb": "images/ministry/theoneabout2.png",
+         "link": "theoneabout2",
+         "site": "https://projectymgames.com/downloads/the-one-about-2/"
+     },
+     {
+         "title": "Sacaredy Cat",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. Each round you're given a phobia. See if you can guess the correct fear.",
+         "image": "images/ministry/scaredycat.png",
+         "thumb": "images/ministry/scaredycat.png",
+         "link": "scaredycat",
+         "site": "https://projectymgames.com/downloads/scaredy-cat/"
+     },
+     {
+         "title": "The One About",
+         "description": "Created content and theme for a digital game for groups using Keynote/Powerpoint. Hosted by ProjectYM. See if you can identify these movies from their vague plot descriptions.",
+         "image": "images/ministry/theoneabout.png",
+         "thumb": "images/ministry/theoneabout.png",
+         "link": "theoneabout",
+         "site": "https://projectymgames.com/downloads/the-one-about/"
+     }
+   ],
+   "illustrations": [
+     {
+         "title": "Woodland Critters",
+         "description": "",
+         "image": "images/illustrations/WoodlandCritters.png",
+         "thumb": "images/illustrations/WoodlandCritters_thumb.png",
+         "link": "woodlandcritters"
+     },
+     {
+         "title": "Went Thatta Way",
+         "description": "",
+         "image": "images/illustrations/wentthattaway.jpg",
+         "thumb": "images/illustrations/wentthattaway_thumb.jpg",
+         "link": "wentthattaway"
+     },
+     {
+         "title": "Frisbee Gal",
+         "description": "",
+         "image": "images/illustrations/frisbeegal.jpg",
+         "thumb": "images/illustrations/frisbeegal_thumb.jpg",
+         "link": "frisbeegal"
+     },
+     {
+         "title": "Kinder Saints",
+         "description": "",
+         "image": "images/illustrations/kindersaints.jpg",
+         "thumb": "images/illustrations/kindersaints_thumb.jpg",
+         "link": "kindersaints"
+     },
+     {
+         "title": "Monster 1",
+         "description": "",
+         "image": "images/illustrations/monster1.jpg",
+         "thumb": "images/illustrations/monster1_thumb.jpg",
+         "link": "monster1"
+     },
+     {
+         "title": "Monster 2",
+         "description": "",
+         "image": "images/illustrations/monster2.jpg",
+         "thumb": "images/illustrations/monster2_thumb.jpg",
+         "link": "monster2"
+     },
+     {
+         "title": "Moving Out",
+         "description": "",
+         "image": "images/illustrations/movingout01.jpg",
+         "thumb": "images/illustrations/movingout01_thumb.jpg",
+         "link": "movingout"
+     },
+     {
+         "title": "The Sketch Supper",
+         "description": "",
+         "image": "images/illustrations/sketchsupper.jpg",
+         "thumb": "images/illustrations/sketchsupper_thumb.jpg",
+         "link": "sketchsupper"
+     },
+     {
+         "title": "'14 Summer Flicks",
+         "description": "",
+         "image": "images/illustrations/summerflicks.jpg",
+         "thumb": "images/illustrations/summerflicks_thumb.jpg",
+         "link": "summerflicks"
+     }
+   ]
+}
